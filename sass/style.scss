@@ -1,11 +1,13 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+$bg-color: skyblue;
 body {
-  font-family: Helvetica, sans-serif;
-  color: #333;
-  background-color: skyblue;
+  font-family: $font-stack;
+  color: $primary-color;
+  background-color: $bg-color;
   text-align: center;
   margin-top: 100px;
 }
-
 .box {
   width: 400px;
   height: 400px;
